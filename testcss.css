@@ -47,7 +47,29 @@
 	color: #5393d4;
 	font-size: 12px;
   }
-  
+    h4 { 
+	margin-top: 2px;
+	margin-bottom: 10px;
+	font-family: 'Cormorant Garamond';
+	text-align: left; 
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+  }
+	h5 {
+	font-family: 'Cormorant Garamond';
+	color: #5393d4;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 2px;
+  }
+	h6 {
+	font-family: 'Cormorant Garamond';
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+	
+  }
   #title {
     margin-left: 3%;
   }
@@ -80,16 +102,21 @@
     display: inline-block;
     margin-top: 20px;
     margin-left: 55px;
-    width: 75%;
+    width: 85%;
     height: 1000px;
   }
   
+  ul {
+	  margin-bottom: 10px;
+  }
   p,
   li {
     font-family: 'Cormorant Garamond';
   }
   
   .head {
+	margin-top: 10px;
+	color: #5393d4;
     font-size: 20px;
   }
   .intro{
@@ -117,6 +144,7 @@
     .stuff {
       width: 100%;
       margin-left: 10px;
+	  
     }
 	
 	
