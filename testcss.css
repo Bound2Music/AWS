@@ -13,8 +13,54 @@
     border-radius: 5px;
   }
   
+  /*
+ 
+body,
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+body {
+  height: 100vh;
+}
+
+
+.website-counter {
+  background-color: #5393d4;
+  height: 40px;
+  width: 70px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+*/
+
+#flex-container {
+	display: flex;
+	flex-direciton: row;
+	margin-top: 10px;
+	margin-bottom: 1px;
+	font-size: 20px;
+}
+/*
+#flex-container > .aws-resume {
+	flex:initial;
+}*/
+
+#flex-container > .website-counter {
+	width: 1rem;
+}
+
+  
   #cloud {
 	  text-align: center;
+	  margin-top: 20px;
   }
   
   
@@ -147,6 +193,7 @@
 	  
     }
 	
+
 	
 	
   }
